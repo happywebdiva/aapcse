@@ -1,0 +1,16 @@
+// The file that gathers the pieces together
+@import "themeinfo";
+@import url("../a11yall/style.css");
+
+@import "basics";
+@import "header";
+@import "content";
+@import "mainmenu";
+@import "sidebar";
+@import "footer";
+
+@import "homepage";
+@import "sitemap";
+
+@import "mediaqueries";
+@import "print";

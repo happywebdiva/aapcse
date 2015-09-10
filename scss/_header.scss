@@ -1,0 +1,12 @@
+.section.header {background: #478ada;border-bottom: 1px solid #4d4d4d;}
+.section.header .container {height: 200px;background: #3469ae;background-repeat:no-repeat;background-size:contain;background-position: left top; background-image:url(kanuga5.jpg);}
+
+h1#site-title { position: absolute;top: 77px;left: 0px; margin: 0 20px; font-size: 24px; line-height: 42px; }
+h1#site-title a {margin: 0; padding: 0; color: #fff; font-weight:normal; text-decoration: none;}
+h1#site-title a:hover, h1#site-title a:focus { color: #ffe48a;}
+#southeastregion{ display:block; font-size: 30px;}
+
+.section.header #main-search-box form { width: 258px; border-right:none; margin-right:0; border-bottom-right-radius: 0;border-bottom-left-radius: 15px;}
+.section.header input[type="text"] {width: 144px;margin-right: 5px; background: rgba(255, 255, 255, 0.9); }
+.section.header #main-search-box form .button, .section.header #main-search-box form button, .section.header #main-search-box form input[type="submit"], .section.header #main-search-box form input[type="reset"], .section.header #main-search-box form input[type="button"] { margin-bottom: 16px; font-size: 12px;background: #478ada;color: #fff;  text-shadow: none; border: 1px solid #aaa;}
+.section.header #main-search-box form input#searchsubmit:hover { background: #222;}

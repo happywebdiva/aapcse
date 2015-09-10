@@ -1,0 +1,12 @@
+/* Basics */
+body { background: #eee;font: 15px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+blockquote { margin-bottom: 14px;}
+blockquote { padding: 21px 15px 14px 85px; background-position: 18px 21px;}
+#main article h1 {font-size: 34px; line-height: 42px;} 
+#main article h2 {font-size: 25px;}  /* instead of 28px */
+#main article h3 {font-size: 22px;}  /* instead of 26px */
+#main article h4 {font-size: 19px;line-height: 21px;margin-bottom: 14px;}
+#main article h5 {font-size: 17px;line-height: 21px;margin-bottom: 14px;}
+#main article h6 {font-size: 16px;line-height: 21px;margin-bottom: 14px;}
+.button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus, .button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover { color: #222; background: #ddd; background: #ddd -moz-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%); /* FF3.6+ */ background: #ddd -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(0, 0, 0, 0.5))); /* Chrome,Safari4+ */ background: #ddd -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%); /* Chrome10+,Safari5.1+ */ background: #ddd -o-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%); /* Opera11.10+ */ background: #ddd -ms-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%); /* IE10+ */ background: #ddd linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%); /* W3C */ border: 1px solid #888; border-top: 1px solid #aaa; border-left: 1px solid #aaa; }
+.accentuate { font-size: 1.5em; }
