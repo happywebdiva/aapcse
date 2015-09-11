@@ -33,6 +33,7 @@ blockquote { padding: 21px 15px 14px 85px; background-position: 18px 21px; }
 
 .accentuate { font-size: 1.5em; }
 
+/* Header */
 .section.header { background: #478ada; border-bottom: 1px solid #4d4d4d; }
 
 .section.header .container { height: 200px; background: #3469ae; background-repeat: no-repeat; background-size: contain; background-position: left top; background-image: url(kanuga5.jpg); }
@@ -53,12 +54,12 @@ h1#site-title a:hover, h1#site-title a:focus { color: #ffe48a; }
 
 .section.header #main-search-box form input#searchsubmit:hover { background: #222; }
 
-.section.middle .container { padding: 28px 0 35px 0; }
-
-/* Was padding: 21px 0 35px 0; */
 .section.mainmenu { background: #000; }
 
 .section.mainmenu nav { background: #222; }
+
+/* Middle section / Content */
+.section.middle .container { padding: 28px 0 35px 0; }
 
 /* Sidebar */
 .widget-area aside { margin: 10px 20px 32px 10px; padding: 21px 12px 14px 30px; background: #eee; border: 1px solid #ccc; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
