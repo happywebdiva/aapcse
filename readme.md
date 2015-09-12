@@ -1,0 +1,1 @@
+A child theme of All Y'all, adapting my Faith 2015 theme for the American Association of Pastoral Counselors Southeast Region.
