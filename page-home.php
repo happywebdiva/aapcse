@@ -6,11 +6,15 @@
 <?php get_header(); ?>
 <div class="sixteen columns" id="main" role="main">
   <div class="eleven columns alpha">
-  	<div class="hentry">
-    <h2>Membership</h2>
-    <p>Pastoral counselors, pastoral care specialists, and a variety of professional affiliates find that membership in AAPC provides them spiritual, theological, and mental health resources through peer evaluation and supervision, conferences, and a variety of publications and interdisciplinary connections.</p>
-    <p>Information about membership in the American Association of Pastoral Counseling can be found in the <a href="http://www.aapc.org/membership.aspx">Membership section of the AAPC website</a> or by contacting Barbara Nyman, Membership Services Coordinator at AAPC, by <a href="mailto:membership@aapc.org">email</a> or by phone at (703) 385-6967</p>
-  	</div><!--.hentry-->
+    <?php 
+      if ( !dynamic_sidebar('Home Widget 1') ) : 
+        echo '<div class="hentry">';
+        echo '<h2>Membership</h2>' ;
+        echo '<p>Pastoral counselors, pastoral care specialists, and a variety of professional affiliates find that membership in AAPC provides them spiritual, theological, and mental health resources through peer evaluation and supervision, conferences, and a variety of publications and interdisciplinary connections.</p>';
+        echo '<p>Information about membership in the American Association of Pastoral Counseling can be found by contacting Barbara Nyman, Membership Services Coordinator at AAPC, at <a href="mailto:membership@aapc.org">email</a> or by phone at (703) 385-6967</p>';
+        echo '</div>';
+      endif; 
+    ?>
   </div><!--.eleven.columns-->
 	<div class="five columns omega">
   	<div class="welcome"><p><span class="accentuate">Welcome</span> to the American Association of Pastoral Counselors, Southeast Region. </p>

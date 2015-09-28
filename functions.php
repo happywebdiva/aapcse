@@ -3,6 +3,15 @@
 // Set up widgets
 add_action( 'widgets_init', 'aapcse_widgets_init' );
 function aapcse_widgets_init() {
+
+	register_sidebar( array(
+		'name' => 'Home Widget 1',
+		'id' => 'home-widget1',
+		'description' => __( 'Update text that shows in upper left of home page'),
+		'before_widget' => '<div class="hentry">',
+		'after_widget' => "</div>",
+	) );
+
 	register_sidebar( array(
 		'name' => 'Footer Widget',
 		'id' => 'footer-widget',
