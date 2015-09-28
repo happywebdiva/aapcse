@@ -9,3 +9,6 @@ abl-aapcse-readme.txt
 # SCSS cache
 .sass-cache/**
 scss/.sass-cache/**
+
+# CodeKit file
+config.codekit
