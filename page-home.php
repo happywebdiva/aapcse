@@ -17,9 +17,11 @@
     ?>
   </div><!--.eleven.columns-->
 	<div class="five columns omega">
-  	<div class="welcome"><p><span class="accentuate">Welcome</span> to the American Association of Pastoral Counselors, Southeast Region. </p>
-  	  <p>This site provides information on AAPC membership, conferences, education, professional resources, and more.</p>
-  	</div>
+    <?php 
+      if ( !dynamic_sidebar('Home Widget 2') ) : 
+        echo '<div class="welcome"><p><span class="accentuate">Welcome</span> to the American Association of Pastoral Counselors, Southeast Region. </p><p>This site provides information on AAPC membership, conferences, education, professional resources, and more.</p></div>';
+      endif; 
+    ?>
   </div><!--.five.columns-->
 </div><!--.sixteen-1.columns-->
 </div><!--.container-first-->
@@ -50,19 +52,25 @@
 <div class="container" id="contentbottom">
 <div class="sixteen columns">
   <div class="eight columns alpha">
-  	<div class="hentry">
-  	<h3>Register Now</h3>
-    <p>To gain full access to the exclusive information available in the AAPC Southeast Region website's Members Only section, please <a href="http://aapcsoutheast.org/index.php?/register/entry">register here</a>.</p>
-  	<h3>Ready to Join?</h3>
-    <p>For information on membership in the American Association of Pastoral Counselors, please click <a href="http://www.aapc.org/membership.aspx" target="_blank">here</a>.</p>
-    </div><!--.hentry-->
+    <?php 
+      if ( !dynamic_sidebar('Home Widget 3') ) : 
+        echo '<div class="hentry">';
+        echo '<h3>Register Now</h3>';
+        echo '<p>To gain full access to the exclusive information available in the AAPC Southeast Region website\'s Members Only section, please <a href="http://aapcsoutheast.org/index.php?/register/entry">register here</a>.</p>';
+        echo '<h3>Ready to Join?</h3>';
+        echo '<p>For information on membership in the American Association of Pastoral Counselors, please click <a href="http://www.aapc.org/membership.aspx" target="_blank">here</a>.</p>';
+        echo '</div><!--.hentry-->';
+      endif; 
+    ?>
   </div><!--.eight-1.columns-->
 	<div class="eight columns omega">
-  	<div class="hentry">
-    <blockquote>"Of all the professional organizations with which I am and have been involved, the Southeast Region of AAPC is one of the most supportive and beneficial to both my personal and professional goals. I am proud to be a part of such a warm and welcoming group of colleagues."<br /><br />
--Jean Pruett
-</blockquote>
-    </div><!--.hentry-->
+    <?php 
+      if ( !dynamic_sidebar('Home Widget 4') ) : 
+        echo '<div class="hentry">';
+        echo '<blockquote>"Of all the professional organizations with which I am and have been involved, the Southeast Region of AAPC is one of the most supportive and beneficial to both my personal and professional goals. I am proud to be a part of such a warm and welcoming group of colleagues."<br /><br />-Jean Pruett</blockquote>';
+        echo '</div><!--.hentry-->';
+      endif; 
+    ?>
   </div><!--.eight-2.columns-->
 </div><!--.sixteen-3.columns-->
 <?php get_footer(); ?>

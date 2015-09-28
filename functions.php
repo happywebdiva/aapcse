@@ -13,6 +13,30 @@ function aapcse_widgets_init() {
 	) );
 
 	register_sidebar( array(
+		'name' => 'Home Widget 2',
+		'id' => 'home-widget2',
+		'description' => __( 'Update text that shows in upper right of home page'),
+		'before_widget' => '<div class="welcome">',
+		'after_widget' => "</div>",
+	) );
+
+	register_sidebar( array(
+		'name' => 'Home Widget 3',
+		'id' => 'home-widget3',
+		'description' => __( 'Update text that shows in lower left of home page'),
+		'before_widget' => '<div class="hentry">',
+		'after_widget' => "</div>",
+	) );
+
+	register_sidebar( array(
+		'name' => 'Home Widget 4',
+		'id' => 'home-widget4',
+		'description' => __( 'Update text that shows in lower right of home page'),
+		'before_widget' => '<div class="hentry">',
+		'after_widget' => "</div>",
+	) );
+
+	register_sidebar( array(
 		'name' => 'Footer Widget',
 		'id' => 'footer-widget',
 		'description' => __( 'The footer widget area. Add a text widget to include your address and phone.'),
